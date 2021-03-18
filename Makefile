@@ -638,6 +638,7 @@ HEADER_FILES = \
   FuseGPUThreadLoops.h \
   FuzzFloatStores.h \
   Generator.h \
+  G2.h \
   HexagonOffload.h \
   HexagonOptimize.h \
   ImageParam.h \
