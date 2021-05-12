@@ -106,7 +106,7 @@ install(FILES
 ##
 
 install(DIRECTORY ${Halide_SOURCE_DIR}/tools
-        TYPE DATA
+        DESTINATION ${Halide_INSTALL_TOOLSDIR}
         COMPONENT Halide_Development
         FILES_MATCHING
         PATTERN "*.h"
